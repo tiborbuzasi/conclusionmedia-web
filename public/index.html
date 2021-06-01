@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<!-- ConclusionMedia Website -->
+<!-- Copyright © 2021 Tibor Buzási. All rights reserved. -->
+
+<html lang="en">
+	<head>
+		<link rel="icon" href="/images/favicon-24.png" sizes="24x24" type="image/png">
+		<link rel="icon" href="/images/favicon-96.png" sizes="96x96" type="image/png">
+		<link rel="stylesheet" type="text/css" href="/styles/display.css">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="ConlusionMedia Website. The home of the games Blocchi and Rollaball.">
+		<script src="/scripts/config.js"></script>
+		<script src="/scripts/page.js"></script>
+		<title>ConclusionMedia Website</title>
+	</head>
+	<body onload="load()">
+		<header>
+			<span class="logo">
+				<a href="/">
+					<img alt="ConclusionMedia" onerror="/images/logo.png" src="/images/logo.webp">
+				</a>
+			</span>
+			<nav id="menu">
+				<span class="loading">Loading...</span>
+			</nav>
+		</header>
+		<main id="main"></main>
+		<footer>
+			<p>
+				Copyright &copy; 2021 Tibor Buzási. &ndash; 
+				<a href="/license" onclick="return loadPage('license');">License information</a> &ndash; 
+				Powered by <a href="https://firebase.google.com/" rel="noreferrer" target="_blank">Google Firebase</a>
+			</p>
+		</footer>
+	</body>
+</html>

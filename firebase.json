@@ -1,0 +1,29 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/_Source/**"
+    ],
+    "redirects": [
+      {
+        "source": "/dirLegacy/pgeBlocchi.html",
+        "destination": "/games/blocchi",
+        "type": 301
+      },
+      {
+        "source": "/dirLegacy/pgeRollaball.html",
+        "destination": "/games/rollaball",
+        "type": 301
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
